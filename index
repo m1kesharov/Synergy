@@ -13,7 +13,6 @@
                     <nav class="main-menu">
                     <a href="#about">Обо мне</a>
                     <a href="#skills">Навыки</a>
-                    <a href="#technologies">Технологии</a>
                    </nav>
                    <a href="authorization.html">Авторизация</a>
                 </div>  
