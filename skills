@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="eg">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Веб-разработчик Барателия Т.А.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="main-menu">
+          <a href="index.html">На главную</a>
+        </nav>
+        <div class="text-center py-5">
+          <h1 class="name">Иванов Иван Иванович</h1>
+          <h2>Веб-дизайнер</h2>
+          <p class="w-50 my-3 mx-auto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            autem reiciendis laudantium, nemo voluptatum possimus non rem
+            perspiciatis aspernatur, sit reprehenderit nesciunt! Quas illo quasi
+            cumque quibusdam esse assumenda. Suscipit.
+          </p>
+          <a class="btn contact-me-btn" href="mailto:barateliatimura@gmail.com"
+            >Написать мне</a
+          >
+        </div>
+      </div>
+    </header>
 
+    <main>
+      <div class="container">
+        <!--Блок с классом container для выравнивания-->
+        <section id="about">
+          <!--Секция с личной иннформацией-->
+          <h2>Растровая графика</h2>
+          <div class="table-align">
+            <table class="table">
+              <tr>
+                <th>№</th>
+                <th>Навыки работы с инструментами</th>
+                <th>Уровень владения</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Работа с кистями</td>
+                <td>Средний</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td class="table">Работа с инструментом выделение</td>
+                <td rowspan="2">Профессиональный</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Работа со слоями</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Работа с масками</td>
+                <td>Средний</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Работа с а-каналом</td>
+                <td>Начальный</td>
+              </tr>
+              <tr>
+                <td colspan="3">Общий уровень - профессионал</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section id="skills">
+          <!--Секция с навыками-->
+          <h2 class="st0">Векторная графика</h2>
+          <div class="table-align">
+
+            <table class="table">
+              <tr>
+                <th>№</th>
+                <th>Навыки работы с инструментами</th>
+                <th>Уровень владения</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Работа с кистями</td>
+                <td>Средний</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td class="table">Работа с инструментом выделение</td>
+                <td rowspan="2">Профессиональный</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Работа со слоями</td>
+              </tr>
+              <tr>
+                <td colspan="3">Общий уровень - профессионал</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        </section>
+
+        <section id="portfolio">
+          <!--Секция с портфолио-->
+          <h2>Трехмерная графика</h2>
+          <div class="table-align">
+            <table class="table">
+              <tr>
+                <th>№</th>
+                <th>Навыки работы с инструментами</th>
+                <th>Уровень владения</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Работа с кистями</td>
+                <td>Средний</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td class="border">Работа с инструментом выделение</td>
+                <td rowspan="2">Профессиональный</td>
+              </tr>
+              <tr>
+                <td colspan="3">Общий уровень - профессионал</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">&copy; Иванов И.И.</div>
+    </footer>
+  </body>
+</html>
