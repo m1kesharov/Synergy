@@ -4,7 +4,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    background-color: black;
+    background-color: grey;
     color: white;
     background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHCkFmSUDHKWRPsHYp_5H4TuUwkgyFMp-BGxZk4xuAuusd5Oq2);
     background-size: cover;
@@ -239,7 +239,7 @@ display: inline-block;
 }
 
 .footer {
-    background-color: black;
+    background-color: grey;
     color: white;
     padding: 40px 0;
     margin-top: 2rem;   
