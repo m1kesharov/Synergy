@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="main2.css">
-    </head>
-    <body>
-        <header class="header">
-            <div class="container">
-                <nav class="main-menu-second-webs"> 
-                    <a href="index.html">На главную</a>
-                </nav>
-                <div class="text-center py-5">
-                </div>
-            </div>
-        </header>
+</head>
+<header> 
 
-        <main>
-            <div class="allauthorization">
-                <h3 id="contactus">Авторизация</h3>
-                <form action="https://httpbin.org/post" method="post" class="auuuthorization">
-                    <div class="feedbackOP">
-                        <fieldset>
-                            <legend>Логин</legend>
-                            <input type="text" name="name" id="name" required />
-                        </fieldset>
-                    </div>
-                    <div class="feedbackOP">
-                        <fieldset>
-                            <legend>Пароль</legend>
-                            <input type="password" name="password" id="password" required />
-                        </fieldset>
-                    </div>
-                    <div class="feedbackCheckbox">
-                        <input type="checkbox" name="consent" required>
-                        <p id="checkboxP">Запомнить меня</p>
-                    </div>
-                    <div class="feedbackSubmit">
-                        <input id="submit" type="submit">                                  
-                    </div>
-                </form>
-            </div>
-        </main>
 
-        <footer class="footer">
-            <div class="container">
-                &copy; Шаров М.О.
-            </div>
-        </footer> 
-    </body>
-</html>
+</header>
+
+<body>
+    <h2>Свяжитесь с нами</h2>
+    <form action="https://httbin.org/post" method="post">
+        <fieldset>
+            <p>
+                <label>
+                    ФИО
+                    <input id="text" name="text-field" placeholder="Введите свой тест" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Email
+                    <input id="text" name="text-field" placeholder="Введите свой тест" required>
+                </label>
+            </p>
+             
+        </fieldset>
+        <fieldset>
+            <legend>Откуда вы о нас узнали?</legend>
+            <label><input type="radio" name="radio">Реклама</label>
+            <label><input type="radio" name="radio">От друзей</label>
+            <label><input type="radio" name="radio">От университета</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Тип обращения</legend>
+                <p>
+                    <select name="quantity"> 
+                        <option value="1">Жалоба</option> 
+                        <option value="2">Вопрос</option>
+                        <option value="3">Предложение</option>
+                        <option value="4">Помощь</option>
+                    </select>
+                </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Текст с сообщением</legend>
+            <p>
+                <label for="Ваш адреc электронной почты">
+                    <input type="email" name="email">
+                </label>
+            </p>
+        </fieldset>
+        <label><input type="checkbox" name="checkbox">Даю согласие на обработку персональных данных</label>
+        <p>
+            <a href="index.html">Отправить</a>
+        </p>
+
+    </form>
+   
+
+</body>
