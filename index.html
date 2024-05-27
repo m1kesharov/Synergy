@@ -1,96 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой статический веб-сайт</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Добро пожаловать на мой сайт!</h1>
-    </header>
-    <style>
-    	    h1{text-align:center;color:white;}
-            h3{text-align:center;color:white;}
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Шаров Михаил Олегович.</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="container-align">
+                    <nav class="main-menu">
+                    <a href="#about">Обо мне</a>
+                    <a href="#skills">Навыки</a>
+                    <a href="#technologies">Технологии</a>
+                   </nav>
+                   <a href="authorization.html">Авторизация</a>
+                </div>  
+            <div class="text-center py-5">
+            <h1 class="name">Шаров Михаил Олегович</h1>
+            <h2>Веб-дизайнер</h2>
+            <p class="w-50 my-3 mx-auto">
+                I am a professional web designer with many years of experience in the industry. I have excellent command of Adobe programs (Photoshop, Illustrator, InDesign), Figma, Sketch, HTML, CSS.
+            </p>
+            <a class="btn contact-me-btn" href="mailto:misha.sharov@icloud.com">Написать мне</a>
+
+        </div>
+        </div>
         
-        .image-container {
-  background-image: url('blob:https://web.telegram.org/3d92a44a-10b6-485d-ad99-20ade4dde288');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-        
-    	<h1>Шаров Михаил Олегович</h1>
-        <h3>Веб-дизайнер</h3>
-    <nav>
-        <ul>
-            <li><a href="#">Обо мне</a></li>
-            <li><a href="#">Навыки</a></li>
-            <li><a href="#">Технологии</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Обо мне</h2>
-            <img src="https://t4.ftcdn.net/jpg/01/23/88/95/360_F_123889510_GFrxhiKLsX5takwRYPKx21D8AdazGafM.jpg" />
-            <p>I am a web designer. What I do is create beautiful and user-friendly websites. I can design a single page or the entire site. I also know how to draw banners, icons, process photographs and illustrations for your website. If you need to create a website from scratch, then I can offer the services of a layout designer and programmer to bring the project to life.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; Шаров М.О. </p>
-    </footer>
-</body>
+        </header>
+
+        <main>
+            <div class="container">
+                <section id="about">
+                    <h1>Обо мне</h1>
+
+                    <figure class="awatar">
+                        <img src="https://t4.ftcdn.net/jpg/01/23/88/95/360_F_123889510_GFrxhiKLsX5takwRYPKx21D8AdazGafM.jpg"
+                    </figure>
+
+
+                    <p>
+                        I am a web designer. What I do is create beautiful and user-friendly websites. I can design a single page or the entire site. I also know how to draw banners, icons, process photographs and illustrations for your website. If you need to create a website from scratch, then I can offer the services of a layout designer and programmer to bring the project to life.
+                    </p>
+                </section>
+
+                <section id="skills">
+                    <h1>Навыки</h1>
+                    <p>
+                        I can create a user-friendly interface for websites and applications. To do this, I use various graphic editors and layout programs. I know the basics of typography, I can work with color schemes and fonts. I can develop page prototypes and interface layouts, taking into account the principles of usability and mobile first.
+                    </p>
+                    <div class="text-right">
+                         <a class="button" href="skills.html">Подробнее</a>
+                    </div>
+                   
+                </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                &copy; Иванов И.И.
+            </div>
+
+        </footer>
+    </body>
 </html>
-
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav {
-    background-color: #444;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-    </style>
