@@ -1,9 +1,14 @@
-header {
-    background-image: url('https://img.freepik.com/free-photo/dark-grunge-style-scratched-metal-surface_1048-12951.jpg');
-    background-size: 100%;
-    color: rgb(255, 251, 219);
-    padding-bottom: 64px;
-}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    .header {
+        background-color: black;
+        color: white;
+        background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHCkFmSUDHKWRPsHYp_5H4TuUwkgyFMp-BGxZk4xuAuusd5Oq2);
+        background-size: cover;
+    }
 header ul {
     list-style-type: none;
     margin: 0;
