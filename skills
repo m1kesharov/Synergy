@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>Веб-разработчик Барателия Т.А.</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <header class="header">
